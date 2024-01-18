@@ -1,0 +1,50 @@
+chatglm:
+  path: chatglm3-6b
+
+baichuan-chat:
+  path: Baichuan2-7B-Chat
+
+gpt-3.5:
+  api_key: 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
+
+gpt-4:
+  api_key: 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
+
+codegeex:
+  path: codegeex2-6b
+
+deepseek-coder-1.3b-chat:
+  path: deepseek-coder-1.3b-instruct
+
+deepseek-coder-6.7b-chat:
+  path: deepseek-coder-6.7b-instruct
+
+deepseek-coder-33b-chat:
+  path: deepseek-coder-33b-instruct
+
+codeshell:
+  path: CodeShell-7B
+
+codeshell-chat:
+  path: CodeShell-7B-Chat
+
+codegen-2.5:
+  path: codegen25-7b-multi
+
+phind-code-llama:
+  path: Phind-CodeLlama-34B-v2
+
+grounding-dino:
+  type: detection
+  ckpt: grounding-dino/groundingdino_swint_ogc.pth
+  config: grounding-dino/GroundingDINO_SwinT_OGC.py
+
+segment-anything:
+  type: segmentation
+  model_type: vit_h
+  ckpt: sam/sam_vit_h_4b8939.pth
+
+graspnet:
+  ckpt: graspnet/checkpoint-rs.tar
+
+server: www.tianbeiwen.com:50051
